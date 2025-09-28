@@ -1,23 +1,25 @@
-# Práctica 2 - Codificación de Huffman (C++)
-- Ana Sofía Angarita Barrios
-  
-Esta proyecto implementa el **algoritmo de compresión de Huffman** en C++ como parte de la Práctica #2 de estructuras de datos y algoritmos. Para su desarrollo completo se hizo uso de
-Inteligencias artificiales como: Chatgpt,gemini y copilot.
+# Práctica #2 – Codificación de Huffman en C++
 
 ## Descripción
-Este programa:
-1. Lee un texto de entrada (mínimo 30 caracteres).
-2. Calcula las **frecuencias** de los caracteres.
-3. Construye el **árbol de Huffman**.
-4. Genera los **códigos Huffman no canónicos**.
-5. Convierte a **códigos Huffman canónicos**.
-6. Comprime el texto usando los códigos canónicos.
-7. Muestra:
-   - Tabla de frecuencias  
-   - Códigos Huffman normales  
-   - Códigos Huffman canónicos  
-   - Texto comprimido (primeros 128 bits)  
-   - Tamaño original (bits)  
-   - Tamaño comprimido (bits)  
-   - Ratio y porcentaje de reducción  
+Este proyecto implementa el algoritmo de **Huffman** para compresión de texto.  
+Se incluyen dos variantes de códigos:
+- **Huffman normal** (árbol de prefijos mínimo).
+- **Huffman canónico** (códigos ordenados por longitud y alfabéticamente).
+Para un trabajo más completo se hizo uso de chatgpt , gemini y copilot
+
+El programa:
+1. Calcula las **frecuencias** de cada símbolo.
+2. Construye el **árbol de Huffman** y lo muestra en forma de **tabla de nodos**.
+3. Genera los **códigos Huffman normales** y sus **longitudes**.
+4. Convierte los códigos en su versión **canónica**.
+5. Comprime un texto y muestra:
+   - Bits originales.
+   - Bits comprimidos.
+   - Ratio de compresión y porcentaje de reducción.
+   - Cadena comprimida también en **hexadecimal**.
+---
+
+## Compilación y ejecución
+El proyecto está configurado con **CMake** (usado en CLion).
+
 
