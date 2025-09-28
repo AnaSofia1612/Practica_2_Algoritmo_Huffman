@@ -20,7 +20,4 @@ Este programa:
    - Tamaño original (bits)  
    - Tamaño comprimido (bits)  
    - Ratio y porcentaje de reducción  
----
-
-## 🗂️ Estructura del proyecto
 
