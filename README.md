@@ -5,7 +5,7 @@ Este proyecto implementa el algoritmo de **Huffman** para compresión de texto.
 Se incluyen dos variantes de códigos:
 - **Huffman normal** (árbol de prefijos mínimo).
 - **Huffman canónico** (códigos ordenados por longitud y alfabéticamente).
-Para un trabajo más completo se hizo uso de chatgpt , gemini y copilot
+- Para un trabajo más completo se hizo uso de chatgpt , gemini y copilot
 
 El programa:
 1. Calcula las **frecuencias** de cada símbolo.
